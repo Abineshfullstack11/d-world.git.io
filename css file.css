@@ -1,0 +1,98 @@
+button#dropdownMenu1 
+{
+    margin-top: 6px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #06b6fba3;
+    color: white;
+}
+.ul.nav.navbar-navbar{
+    padding-left: 14%;
+}
+ul.nav.navbar-nav {
+    padding-left: 35%;
+}
+li {
+    margin-left: 20px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.span{
+    background-color: grey;
+    border: 1px solid grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding-top: 10px;   
+}
+.color{
+    background-color: white;
+}
+
+
+.container .panel{
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.container .panel:hover{
+    transform: translateY(-10px);
+}
+
+.carousel-inner .img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+* {box-sizing: border-box;}
+/* .rey {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  } */
+  
+  .avatar {
+    display: block;
+    width: 100%;
+    height: auto
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 92%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
